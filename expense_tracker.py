@@ -55,7 +55,7 @@ class ExpenseTracker:
 
     def get_category_totals(self) -> dict:
 
-        totals = []
+        totals = {}
 
         for expense in self.expenses:
 
